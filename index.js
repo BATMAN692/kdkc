@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === '') { 
+if (message.content === 'batman') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(``) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(`ڕیکلامەکەکراتۆش ئەم سێرڤەرەدانێhttps://discord.gg/ZrUGYCsJAw`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("").send(
+  client.channels.get("793531558710607947").send(
 `> <:ARBELE_UPUP:791411050238836766> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -51,10 +51,10 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(``,"http://twitch.tv/PAYWANDcamper") 
+client.user.setGame(`BY BATMAN`,"") 
 });
 
 
 
 
-client.login("");//تۆکین لێرە دانێ
+client.login("Nzk4NjEzOTI0MDI2MjUzMzcz.X_3lLQ.GUI6EC0JNmr6DhFqpNZojbhbKiI");//تۆکین لێرە دانێ
